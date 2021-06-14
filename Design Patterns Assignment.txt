@@ -1,0 +1,22 @@
+Describe what is the primary problem you are trying to solve. (P1)
+How to take a credit card number and determine which carrier it is as well as how to create an object based off of that. 
+Describe what are the secondary problems you try to solve (if there are any). (P2/P3)
+How to create a java object based on the creditcard number
+
+Describe what design pattern(s) you use how (use plain text and/or diagrams). 
+
+Perhaps a factory method patern or strategy pattern
+Describe the consequences of using this/these pattern(s).
+
+
+Implement the solution in Java
+Use one of the following:
+Array of Strings containing credit numbers, for example:
+String[] lines = {“5100123412341234,07/22,John Doe”, “x”};
+Reading a text file containing credit card details, for example:
+5100123412341234,07/22,John Doe
+601112341234123,09/23,Jane Doe
+Create your own additional test cases.
+Sample output:
+MasterCard: 5100123412341234,07/22,John Doe
+Unable to instantiate from known credit types: 601112341234123,09/23,Jane Doe
